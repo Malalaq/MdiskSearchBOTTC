@@ -5,7 +5,7 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "133273016"))
+    API_ID = int(os.getenv("API_ID", "27027072"))
     API_HASH = os.getenv("API_HASH", "7ff1601dab5bb977875f23c771190826")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5922528465:AAF-7n8tnMiJPqpBNxmVX5jS0pbAI62cYVY")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
