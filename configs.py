@@ -12,7 +12,7 @@ class Config(object):
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKkBu09s73VLGQQnQZp81QLu_hvbfV9yEuhmccZdjyWtbbXB-m2ujGrZ8HY9RymfBfBDrrZqChCCLSXWhZ54D8FCVpkiAO1GI-c85ZDExvGUu_3g-QdoqL7Kf-K6tK4I-u8CmeNmQKXLO-jPS89BphFytogqFKYCNvv7Kw2WOlbcEzsijo5xFYFWmVsccKPGdgGL9xvWTB-51uH36joGzuBnT6TGMftMGmUK5DQQF5i6Lk2_0EknKBN5Q3YpP_JNiOl9PntcvYHPUkgecupU2m5DKi5TMwHgI5ohFMezIrHH0NNG63AHYf35UGSienCWbwG8Csn8VceLQMnXrKZcRbIy-McIY=")
 #   Channel id where your posts are stored.
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-100180838783308")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@dvmovietokbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
 #   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "lazydeveloperr")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "LazyDeveloper")
